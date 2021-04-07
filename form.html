@@ -34,14 +34,41 @@
 	<div class="conteiner">
 		<form method="GET" id="search">
 			<p>
-				<input type="text" name="query">
+				<label for="name">ФИО</label>
+				<input type="text" name="name" id="name" placeholder="ФИО">
 			</p>
 		
 			<p>
-				<input type="text" name="a">
+				<label for="phone">Телефон</label>
+				<input type="tel" name="phone" id="phone" placeholder="Телефон">
 			</p>
+			<div>
+			<p>
+			<label for="course">Класс</label>
+		</p>
+			<p>
+			<select name="course" id="course">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+			</select>
+		</p>
+	</div>
 
+		<p>
+			<label for="About">About</label>
+			<textarea rows="10" cols="40" id="About" placeholder="About"></textarea>
+		</p>
 			<button type="submit1">Submit</button>
+		
 		</form>
 
 	</div>
