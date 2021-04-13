@@ -16,10 +16,16 @@
 			padding: 20px;
 		}
 
-		form input {
+
+		form input:not([type="checkbox"]):not([type="radio"]) {
+			/*margin:0 auto:*/
 			width: 100%;
 		}
 
+		 label {
+			display: inline-block;
+			width: 100%;
+		}
 		.box {
 			border: 2px solid #ff0000;
 			padding: 15px;
@@ -42,6 +48,57 @@
 				<label for="phone">Телефон</label>
 				<input type="tel" name="phone" id="phone" placeholder="Телефон">
 			</p>
+			<p>
+				<label for="email">Почта</label>
+				<input type="email" name="mail" id="mail" placeholder="Почта">
+			</p>
+			<p>
+				<label for="date">Дата рождения</label>
+				<input type="date" name="date" id="date">
+			</p>
+			<div>
+				<label>Фрукты</label>
+				<label>
+					<input type="checkbox" name="fruit">
+					Яблоки
+				</label>
+				<label>
+					<input type="checkbox" name="fruit">
+					Груши
+				</label>
+				<label>
+					<input type="checkbox" name="fruit">
+					Апельсин
+				</label>
+				<label>
+					<input type="checkbox" name="fruit">
+					Ананас
+				</label>
+				<label>
+					<input type="checkbox" name="fruit">
+					Инжир
+				</label>
+			</div>
+			<div>
+				<label>Время года</label>
+				<label>
+					<input type="radio" name="season">
+					<img src="images/winter.png"alt"Зима"/>
+				</label>
+				<label>
+					<input type="radio" name="season">
+					Весна
+				</label>
+				<label>
+					<input type="radio" name="season">
+					Лето
+				</label>
+			
+				<label>
+					<input type="radio" name="season">
+					Осень
+				</label>
+			</div>
 			<div>
 			<p>
 			<label for="course">Класс</label>
