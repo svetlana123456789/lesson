@@ -21,6 +21,15 @@
 			/*margin:0 auto:*/
 			width: 100%;
 		}
+		img[src] {
+			border: 2px solid #ff0000
+		}
+		img[alt] {
+			border: 2px solid #00ff00
+		}
+		img[alt^="s"] {
+			border: 2px solid #0000ff
+		}
 
 		 label {
 			display: inline-block;
@@ -37,6 +46,11 @@
 	</style>
 </head>
 <body>
+	<ul>
+		<li>
+			<a href="../index.html">Home</a>
+		</li>
+	</ul>
 	<div class="conteiner">
 		<form method="GET" id="search">
 			<p>
@@ -83,7 +97,7 @@
 				<label>Время года</label>
 				<label>
 					<input type="radio" name="season">
-					<img src="images/winter.png"alt"Зима"/>
+					<img src="../images/winter.png"alt="Зима"/>
 				</label>
 				<label>
 					<input type="radio" name="season">
@@ -147,6 +161,11 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</p>
+    <img src="../images/winter.png"/>
+    <img src="../images/winter.png"alt="winter"/>
+	<img src="../images/summer.png"alt="summer"/>
+	<img src="../images/summer.png"alt="_summer"/>
+
 
 
 	
