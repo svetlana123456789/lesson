@@ -26,12 +26,17 @@ function changeColor() {
 
 	if (i > colorArray.length - 1) {
 		i = 0;
+	
 	}
 }
 function selectColor(){
 	let color = document.getElementById("color").value;
 	
 	document.body.style.background = color;
+	document.getElementById('result').innerHTML = color;
 
-	console.log(color);
+	
+	//console.log(color);
 }
+let open_elements = document.getElementsByClassName('oper');
+		console.log(open_elements)

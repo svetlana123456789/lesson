@@ -4,7 +4,7 @@
 <head>
 	<title>JavaScript</title>
 
-	<script type="text/javascript" src="../asset/js/main.js">
+	
 		
 	</script>
 </head>
@@ -14,8 +14,86 @@
 		selectColor();">
 	</p>
 	<p>
+		Цвет: <span id="result"></span>
+	</p>
+	<p>
 		<!--<button onclick="changeColor();">changeColor</button>-->
 	</p>
+<style type="text/css">
+	table {
+		text-align: center;
+	}
+	input {
+		width: 100%;
+	}
+</style>
+	<table>
+				<thead>
+					<tr>
+					<th colspan="4">
+						<input type="text" name="enter" id="enter">  
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<input type="button" class="number" value="7">
+						</td>
+						<td>
+							<input type="button" class="number" value="8">
+						</td>
+						<td>
+							<input type="button" class="number" value="9">
+						</td>
+						<td>
+							<input type="button" class="oper" value="+">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="button" class="number" value="4">
+						</td>
+						<td>
+							<input type="button" class="number" value="5">
+						</td>
+						<td>
+							<input type="button" class="number" value="6">
+						</td>
+						<td>
+							<input type="button" class="oper" value="-">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="button" class="number" value="1">
+						</td>
+						<td>
+							<input type="button" class="number" value="2">
+						</td>
+						<td>
+							<input type="button" class="number" value="3">
+						</td>
+						<td>
+							<input type="button" class="oper" value="*">
+						</td>
+					</tr>
+				<tr>
+					<th colspan="2">
+						<input type="button" class="number" value="0">
+					</th>
+						<td>
+							<input type="button" class="oper" value="=">
+						</td>
+						<td>
+							<input type="button" class="oper" value="/">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<script type="text/javascript" src="../asset/js/main.js"></script>
+
 	
 </body>
 </html>
